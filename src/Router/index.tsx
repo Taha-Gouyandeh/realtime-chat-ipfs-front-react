@@ -32,6 +32,24 @@ export const RouterPage = () => {
               </SiteLayout>
             }
           ></Route>
+          <Route path="history">
+            <Route
+              path=""
+              element={
+                <SiteLayout>
+                  <Screen.History />
+                </SiteLayout>
+              }
+            />
+            <Route
+              path=":id"
+              element={
+                <SiteLayout>
+                  <Screen.HistoryInfo />
+                </SiteLayout>
+              }
+            />
+          </Route>
         </Route>
         <Route path="/login" element={<Screen.Login />} />
       </Routes>

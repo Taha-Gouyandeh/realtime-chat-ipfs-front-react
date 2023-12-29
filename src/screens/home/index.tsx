@@ -8,6 +8,8 @@ import './style.scss';
 import { useTranslation } from 'react-i18next';
 import io, { Socket } from 'socket.io-client';
 import { Send } from 'lucide-react';
+import { ChatApi } from '../../api';
+import Swal from 'sweetalert2';
 
 export const Home = () => {
   const user = useAppSelector(selectUser);
@@ -73,7 +75,23 @@ export const Home = () => {
           style={{ zIndex: 5 }}
         >
           <span>{t('chat-room')}</span>
-          <button className={'btn red3-bg text-white rounded-3'}>
+          <button
+            className={'btn red3-bg text-white rounded-3'}
+            onClick={() => {
+              ChatApi.StoreChat(user, messages)
+                .then((data) => {
+                  Swal.fire({
+                    icon: 'success',
+                    text: 'Your Chat store in IPFS Successfully',
+                  }).then(() => {
+                    window.location.reload();
+                  });
+                })
+                .catch((err) => {
+                  console.log(err);
+                });
+            }}
+          >
             <small>{t('store&exit')}</small>
           </button>
         </div>

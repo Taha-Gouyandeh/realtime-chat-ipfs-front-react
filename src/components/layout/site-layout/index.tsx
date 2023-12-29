@@ -12,8 +12,15 @@ import {
   setLanguage,
 } from '../../../redux-config/entities/language';
 import { useTranslation } from 'react-i18next';
-import { Bell, LayoutGrid, Menu } from 'lucide-react';
+import {
+  History,
+  LayoutGrid,
+  Menu,
+  MessageSquare,
+  MessageSquareDashed,
+} from 'lucide-react';
 import { DarkLightBtn } from '../../dark-light-btn';
+import { Link } from 'react-router-dom';
 
 export const SiteLayout: React.FC<{ children: React.ReactNode }> = ({
   children,
@@ -97,7 +104,13 @@ export const SiteLayout: React.FC<{ children: React.ReactNode }> = ({
                 onClick={requestFullScreen}
                 className={'g-cursor-pointer text4'}
               />
-              <Bell className={'text4'} />
+              <Link to={`/history`}>
+                <History className={'text4'} />
+              </Link>
+
+              <Link to={`/`}>
+                <MessageSquare className={'text4'} />
+              </Link>
               <DarkLightBtn
                 IsLight={darkMode}
                 setLight={(data: boolean) => {
