@@ -1,0 +1,16 @@
+/* make the customizations */
+$theme-colors: (
+  "primary": #a13b97,
+  "secondary": #4556ac,
+  "success": #369705,
+  "info": #0d6efd,
+  "warning": #eccd01,
+  "danger": #f5222d,
+  "custom-black": #1d1a1d,
+  "custom-dark": #242224,
+  "custom-white": #ffffff,
+  "custom-light": #f8f8f8,
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

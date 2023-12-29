@@ -1,0 +1,472 @@
+$prm1: #500184;
+$prm2: #36005f;
+$prm3: #470178;
+$prm4: #8a50ad;
+$prm5: #c3a0d6;
+$prm6: #ede6f3;
+
+$red1: #ff1b52;
+$red2: #c51342;
+$red3: #e2174a;
+$red4: #ff517a;
+$red5: #ffbcc9;
+$red6: #ffe8ee;
+
+$gray1: #070f42;
+$gray2: #1b224f;
+$gray3: #424769;
+$gray4: #696c82;
+$gray5: #a4a4a9;
+$gray6: #f2f2f2;
+$gray-main: #777777;
+$gray-dark: #313139;
+
+$green1: #3bc1a1;;
+$green2: #9de0d0;
+$green3: #ebf9f6;
+
+$yellow1: #ffe81b;
+$yellow2: #fff48d;
+$yellow3: #fffde8;
+$yellow-on: #ffb11b;
+
+$white: #ffffff;
+$light: #f5f6f7;
+
+$black: #161616;
+$dark: #282828;
+
+
+.bg-custom-black {
+  background-color: $black !important;
+}
+
+.bg-custom-dark {
+  background-color: $dark !important;
+}
+
+
+.bg-custom-white {
+  background-color: $white !important;
+}
+
+.bg-custom-light {
+  background-color: $light !important;
+}
+
+
+.text1 {
+  color: $gray1 !important;
+}
+
+.text1-bg {
+  background-color: $gray1 !important;
+}
+
+.text2 {
+  color: $gray2 !important;
+}
+
+.text2-bg {
+  background-color: $gray2 !important;
+}
+
+.text3 {
+  color: $gray3 !important;
+}
+
+.text3-bg {
+  background-color: $gray3 !important;
+}
+
+.text4 {
+  color: $gray4 !important;
+}
+
+.text4-bg {
+  background-color: $gray4 !important;
+}
+
+.text5 {
+  color: $gray5 !important;
+}
+
+.text5-bg {
+  background-color: $gray5 !important;
+}
+
+.text6 {
+  color: $gray6 !important;
+}
+
+.text6-bg {
+  background-color: $gray6 !important;
+}
+
+.text-main {
+  color: $gray-main !important;
+}
+
+.text6-main {
+  background-color: $gray-main !important;
+}
+
+.prm1-text {
+  color: $prm1 !important;
+}
+
+.prm1-bg {
+  background-color: $prm1 !important;
+}
+
+.prm2-text {
+  color: $prm2 !important;
+}
+
+.prm2-bg {
+  background-color: $prm2 !important;
+}
+
+.prm3-text {
+  color: $prm3 !important;
+}
+
+.prm3-bg {
+  background-color: $prm3 !important;
+}
+
+.prm4-text {
+  color: $prm4 !important;
+}
+
+.prm4-bg {
+  background-color: $prm4 !important;
+}
+
+.prm5-text {
+  color: $prm5 !important;
+}
+
+.prm5-bg {
+  background-color: $prm5 !important;
+}
+
+.prm6-text {
+  color: $prm6 !important;
+}
+
+.prm6-bg {
+  background-color: $prm6 !important;
+}
+
+[data-bs-theme='dark'] {
+  .text6 {
+    color: $gray1 !important;
+  }
+
+  .text6-bg {
+    background-color: $gray1 !important;
+  }
+
+  .text5 {
+    color: $gray2 !important;
+  }
+
+  .text5-bg {
+    background-color: $gray2 !important;
+  }
+
+  .text4 {
+    color: $gray3 !important;
+  }
+
+  .text4-bg {
+    background-color: $gray3 !important;
+  }
+
+  .text3 {
+    color: $gray4 !important;
+  }
+
+  .text3-bg {
+    background-color: $gray4 !important;
+  }
+
+  .text2 {
+    color: $gray5 !important;
+  }
+
+  .text2-bg {
+    background-color: $gray5 !important;
+  }
+
+  .text1 {
+    color: $gray6 !important;
+  }
+
+  .text1-bg {
+    background-color: $gray6 !important;
+  }
+
+  .prm6-text {
+    color: $prm1 !important;
+  }
+
+  .prm6-bg {
+    background-color: $prm1 !important;
+  }
+
+  .prm5-text {
+    color: $prm2 !important;
+  }
+
+  .prm5-bg {
+    background-color: $prm2 !important;
+  }
+
+  .prm4-text {
+    color: $prm3 !important;
+  }
+
+  .prm4-bg {
+    background-color: $prm3 !important;
+  }
+
+  .prm3-text {
+    color: $prm4 !important;
+  }
+
+  .prm3-bg {
+    background-color: $prm4 !important;
+  }
+
+  .prm2-text {
+    color: $prm5 !important;
+  }
+
+  .prm2-bg {
+    background-color: $prm5 !important;
+  }
+
+  .prm1-text {
+    color: $prm6 !important;
+  }
+
+  .prm1-bg {
+    background-color: $prm6 !important;
+  }
+}
+
+.red1-text {
+  color: $red1 !important;
+}
+
+.red1-bg {
+  background-color: $red1 !important;
+}
+
+.red2-text {
+  color: $red2 !important;
+}
+
+.red2-bg {
+  background-color: $red2 !important;
+}
+
+.red3-text {
+  color: $red3 !important;
+}
+
+.red3-bg {
+  background-color: $red3 !important;
+}
+
+.red4-text {
+  color: $red4 !important;
+}
+
+.red4-bg {
+  background-color: $red4 !important;
+}
+
+.red5-text {
+  color: $red5 !important;
+}
+
+.red5-bg {
+  background-color: $red5 !important;
+}
+
+.red6-text {
+  color: $red6 !important;
+}
+
+.red6-bg {
+  background-color: $red6 !important;
+}
+
+.blue1-text {
+  color: #1bc0ff !important;
+}
+
+.blue1-bg {
+  background-color: #1bc0ff !important;
+}
+
+.blue2-text {
+  color: #1182a9 !important;
+}
+
+.blue2-bg {
+  background-color: #1182a9 !important;
+}
+
+.blue3-text {
+  color: #1497c6 !important;
+}
+
+.blue3-bg {
+  background-color: #1497c6 !important;
+}
+
+.blue4-text {
+  color: #18abe2 !important;
+}
+
+.blue4-bg {
+  background-color: #18abe2 !important;
+}
+
+.blue5-text {
+  color: #60d1ff !important;
+}
+
+.blue5-bg {
+  background-color: #60d1ff !important;
+}
+
+.blue6-text {
+  color: #ebf4ff !important;
+}
+
+.blue6-bg {
+  background-color: #ebf4ff !important;
+}
+
+.yellow1-text {
+  color: $yellow1 !important;
+}
+
+.yellow1-bg {
+  background-color: $yellow1 !important;
+}
+
+.yellow2-text {
+  color: $yellow2 !important;
+}
+
+.yellow2-bg {
+  background-color: $yellow2 !important;
+}
+
+.yellow3-text {
+  color: $yellow3 !important;
+}
+
+.yellow3-bg {
+  background-color: $yellow3 !important;
+}
+
+.on-yellow-text {
+  color: $yellow-on !important;
+}
+
+.on-yellow-bg {
+  background-color: $yellow-on !important;
+}
+
+.green1-text {
+  color: $green1 !important;
+}
+
+.green1-bg {
+  background-color: $green1 !important;
+}
+
+.green2-text {
+  color: $green2 !important;
+}
+
+.green2-bg {
+  background-color: $green2 !important;
+}
+
+.green3-text {
+  color: $green3 !important;
+}
+
+.green3-bg {
+  background-color: $green3 !important;
+}
+
+
+//********* dark mode **********
+[data-bs-theme='dark'] {
+  .bg-custom-black {
+    background-color: $white !important;
+  }
+
+  .bg-custom-dark {
+    background-color: $light !important;
+  }
+
+  .bg-custom-white {
+    background-color: $black !important;
+  }
+
+  .bg-custom-light {
+    background-color: $dark !important;
+  }
+
+  color: $white;
+
+  td {
+    color: $white !important;
+  }
+
+  th {
+    color: $white !important;
+  }
+
+  .modal-header {
+    background-color: $dark !important;
+    color: $white;
+  }
+
+  .modal-body {
+    background-color: $dark !important;
+    color: $white;
+  }
+
+  .modal-footer {
+    background-color: $dark !important;
+    color: $white;
+  }
+
+  .text-custom-black {
+    color: $white !important;
+  }
+
+  .text-custom-dark {
+    color: $light !important;
+  }
+
+  .text-custom-white {
+    color: $dark !important;
+  }
+
+  .text-custom-light {
+    color: $dark !important;
+  }
+
+}

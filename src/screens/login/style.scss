@@ -1,0 +1,15 @@
+.loginContainer {
+    margin: 0 !important;
+    height: 100vh;
+    min-height: 600px;
+    background: url("../../../public/image/wallpaperbetter.jpg") 0 100% / cover
+      no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+  }
+  
+  #phone-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }

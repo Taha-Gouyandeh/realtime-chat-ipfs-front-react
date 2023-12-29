@@ -1,0 +1,239 @@
+@import "color";
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $gray4;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $white;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: iran-sans;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/font/IRANSans.ttf') format('truetype');
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 0.95rem;
+  font-family: iran-sans !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: unset !important;
+}
+
+.g-cursor-pointer {
+  cursor: pointer !important;
+}
+
+.custom-shadow {
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+
+.custom-rounded {
+  border-radius: 12px;
+}
+
+
+input[type='radio'] {
+  accent-color: $prm1 !important;
+}
+
+input[type='checkbox'] {
+  accent-color: $prm1 !important;
+}
+
+.form-check-input:checked {
+  background-color: $prm1 !important;
+  border-color: $prm1 !important;
+}
+
+.prm-btn {
+  background-color: $prm1 !important;
+  color: white !important;
+
+  &:disabled {
+    background-color: $prm4 !important;
+  }
+}
+
+.prm-outline-btn {
+  color: $prm1 !important;
+  border: 1px solid $prm1;
+
+  &:hover {
+    background-color: $prm1 !important;
+    color: white !important;
+  }
+}
+
+.custom-input {
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.custom-input-none {
+  border: none !important;
+  background-color: inherit !important;
+
+  &:focus-visible {
+    outline: none !important;
+  }
+}
+
+.border-error {
+  border: 1px solid red;
+
+  &:focus-visible {
+    border: 2px solid red !important;
+    outline: none !important;
+  }
+}
+
+.border-success {
+  border: 1px solid green;
+
+  &:focus-visible {
+    border: 2px solid green !important;
+    outline: none !important;
+  }
+}
+
+.border-reg {
+  border: 1px solid $gray5;
+
+  &:focus-visible {
+    border: 2px solid $gray5 !important;
+    outline: none !important;
+  }
+}
+
+// change date picker ui
+.rmdp-container {
+  width: 100% !important;
+}
+
+.rmdp-day {
+  border: 1px solid lightgray;
+  margin: 1px;
+  border-radius: 8px;
+
+  .sd {
+    background-color: transparent !important;
+  }
+}
+
+.rmdp-today {
+  .sd {
+    color: $gray-dark !important;
+  }
+}
+
+.rmdp-selected {
+  background-color: $prm2 !important;
+
+  .sd {
+    box-shadow: none !important;
+    color: $white !important;
+  }
+}
+
+.rmdp-day-hidden {
+  border: transparent !important;
+}
+
+.rmdp-range {
+  background-color: $prm5 !important;
+
+  .sd {
+    color: $gray-dark !important;
+  }
+}
+
+.rmdp-range.start {
+  border-radius: 8px !important;
+  background-color: $prm2 !important;
+
+  .sd {
+    color: white !important;
+  }
+}
+
+.rmdp-range.end {
+  border-radius: 8px !important;
+  background-color: $prm2 !important;
+
+  .sd {
+    color: white !important;
+  }
+}
+
+.rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover {
+  color: $gray-dark !important;
+}
+
+.rmdp-week-day {
+  color: $gray5 !important;
+}
+
+.rmdp-day {
+  margin: 2px;
+}
+
+.rmdp-day:hover {
+  background-color: $prm5 !important;
+}
+
+.rmdp-input {
+  padding: 20px !important;
+  border: 1px solid $gray5 !important;
+  border-radius: 8px !important;
+  width: 100%;
+  text-align: center !important;
+
+  &:focus {
+    padding: 20px;
+    border: 2px solid $gray5;
+    border-radius: 8px;
+  }
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.rmdp-day, .rmdp-week-day {
+  color: unset !important;
+}
+
+.rmdp-shadow {
+  box-shadow: unset !important;
+}
+
+[data-bs-theme='dark'] {
+  .rmdp-shadow {
+    background-color: black;
+  }
+}
+
+.custom-select-box {
+  background-color: inherit;
+  border: none;
+}

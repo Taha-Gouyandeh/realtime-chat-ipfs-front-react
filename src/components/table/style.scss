@@ -1,0 +1,13 @@
+.row-hover {
+  &:hover {
+    background-color: #F5F6F7 !important;
+  }
+}
+
+[data-bs-theme="dark"] {
+  .row-hover {
+    &:hover {
+      background-color: #1f2f3e !important;
+    }
+  }
+}

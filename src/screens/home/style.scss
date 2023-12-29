@@ -1,0 +1,41 @@
+.info-edit-part {
+  display: none;
+
+  &:hover {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    &:hover {
+      background-color: rgb(241, 241, 241);
+    }
+  }
+}
+
+.info-dot-icon {
+  cursor: pointer;
+}
+
+.info-dot-icon:hover ~ .info-edit-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-item-you {
+  border-start-end-radius: 16px;
+  border-start-start-radius: 16px;
+  border-end-start-radius: 16px;
+  max-width: 500px;
+}
+
+.chat-item-other {
+  border-start-end-radius: 16px;
+  border-start-start-radius: 16px;
+  border-end-end-radius: 16px;
+  max-width: 500px;
+}
+
+.chat-height{
+  height: calc(100dvh - 245px);
+}

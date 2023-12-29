@@ -1,0 +1,9 @@
+version: '1'
+services:
+  next-app:
+    container_name: Chat-Room
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3005:3000'

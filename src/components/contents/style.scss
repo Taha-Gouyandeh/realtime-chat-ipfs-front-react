@@ -1,0 +1,16 @@
+.contents-upload-image {
+  top: 0;
+  right: 0;
+  background-color: rgba(128, 128, 128, 0.753);
+  animation: 1s contentUploadAnim infinite alternate;
+}
+
+@keyframes contentUploadAnim {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

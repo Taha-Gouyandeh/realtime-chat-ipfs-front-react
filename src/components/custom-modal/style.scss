@@ -1,0 +1,10 @@
+.custom-modal-back{
+  background-color: rgba(134, 134, 134, 0.41);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100dvh;
+  z-index: 10;
+  backdrop-filter: blur(5px);
+}
