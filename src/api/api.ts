@@ -65,9 +65,7 @@ export class Api {
       axios({
         method: this.method,
         url: this.url + this.path,
-        headers: Object.assign(this.header, {
-          'Accept-Language': getLocalItems('language'),
-        }),
+        headers: this.header,
         data: this.body,
         params: this.params,
       })
